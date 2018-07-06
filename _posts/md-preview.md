@@ -1,7 +1,3 @@
----
-layout: post
-title: You're up and running!
----
 # 目录
 <!-- TOC -->
 
