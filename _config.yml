@@ -1,4 +1,5 @@
 theme: jekyll-theme-leap-day
-source: css.css
 layout: post
 title: My First Post
+sass:
+  style: :expanded # You might prefer to minify using :compressed
