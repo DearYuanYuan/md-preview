@@ -1,3 +1,4 @@
 theme: jekyll-theme-leap-day
 source: css.css
+layout: post
 title: My First Post
