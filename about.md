@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: page
-permalink: /page/
+permalink: /page
 ---
 
 # 1.	TRIAS：可信赖的智能机器
