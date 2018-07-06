@@ -1,1 +1,2 @@
 theme: jekyll-theme-leap-day
+{{ site.baseurl}}/path/to/css.css
