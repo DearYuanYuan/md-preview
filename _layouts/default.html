@@ -16,34 +16,70 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+    <section class="header">
+      <div class="clear">
+          <a href="index_cn.html">
+              <img src="./img/trias_logo.png" alt="">
+          </a>
+          <div class="navbar-menu desktop">
+              <a href="index_cn.html#trias-part3">去中心模型</a>
+              <a href="index_cn.html#trias-part4">技术优势</a>
+              <a href="document_cn.html">技术文档</a>
           </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/doc">doc</a>
-          </nav>
-        </header>
+          <div class="dropdown-list navbar-menu-mobile">
+              <div class="icon-bar"></div>
+              <div class="icon-bar"></div>
+              <div class="icon-bar"></div>
+              <div class="dropdown-list-box">
+                  <a href="index_cn.html"><span class="dot"></span>首页</a>
+                  <a href="document_cn.html"><span class="dot"></span>技术文档</a>
+              </div>
+          </div>
       </div>
-    </div>
+  </section>
 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+    <div class="footer" id="trias-part5">
+      <ul class="contacts clear">
+          <li>
+              <a target="blank" href="https://twitter.com/triaslab">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a target="blank" href="https://t.me/triaslab">
+                  <i class="fab fa-telegram-plane"></i>
+              </a>
+              <a target="blank" href="https://github.com/trias-lab/Documentation">
+                  <i class="fab fa-github"></i>
+              </a>
+              <a class="wechat-button" href="javascript:void(0)">
+                  <i class="fa fa-weixin"></i>
+                  <div class='qrcode'>
+                      <img src='./img/wechat-qrcode.jpeg' alt=''>
+                  </div>
+              </a>
+          </li>
+          <li> Email: contact@trias.one</li>
+          <!-- <li> © 2018 Trias Foundation</li> -->
+          <!-- <li>
+              <div class="dropdown-list">
+                  <i class="fas fa-globe-americas"></i>
+                  English
+                  <i class="fa fa-angle-down"></i>
+                  <i class="fa fa-angle-up"></i>
+                  <div class="dropdown-list-box">
+                      <a href="document.html" class="active">
+                          <span class="dot"></span>English</a>
+                      <a href="document_cn.html">
+                          <span class="dot"></span>中文</a>
+                  </div>
+              </div>
+          </li> -->
+      </ul>
+      <div class="copyright">© 2018 Trias Foundation</div>
+  </div>
 
     {% include analytics.html %}
   </body>
